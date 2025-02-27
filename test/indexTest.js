@@ -1,4 +1,7 @@
 require ( './root.js' );
+const {introduction, introductionWithLanguage, introductionWithLanguageOptional} = require('../index'); 
+
+
 
 
 describe('introduction(name)', function() {
